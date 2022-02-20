@@ -1,0 +1,249 @@
+{"Code": {"S" : "AF"}, "Name": {"S": "Afghanistan"}}
+{"Code": {"S" : "AX"}, "Name": {"S": "\u00c5land Islands"}}
+{"Code": {"S" : "AL"}, "Name": {"S": "Albania"}}
+{"Code": {"S" : "DZ"}, "Name": {"S": "Algeria"}}
+{"Code": {"S" : "AS"}, "Name": {"S": "American Samoa"}}
+{"Code": {"S" : "AD"}, "Name": {"S": "Andorra"}}
+{"Code": {"S" : "AO"}, "Name": {"S": "Angola"}}
+{"Code": {"S" : "AI"}, "Name": {"S": "Anguilla"}}
+{"Code": {"S" : "AQ"}, "Name": {"S": "Antarctica"}}
+{"Code": {"S" : "AG"}, "Name": {"S": "Antigua and Barbuda"}}
+{"Code": {"S" : "AR"}, "Name": {"S": "Argentina"}}
+{"Code": {"S" : "AM"}, "Name": {"S": "Armenia"}}
+{"Code": {"S" : "AW"}, "Name": {"S": "Aruba"}}
+{"Code": {"S" : "AU"}, "Name": {"S": "Australia"}}
+{"Code": {"S" : "AT"}, "Name": {"S": "Austria"}}
+{"Code": {"S" : "AZ"}, "Name": {"S": "Azerbaijan"}}
+{"Code": {"S" : "BS"}, "Name": {"S": "Bahamas"}}
+{"Code": {"S" : "BH"}, "Name": {"S": "Bahrain"}}
+{"Code": {"S" : "BD"}, "Name": {"S": "Bangladesh"}}
+{"Code": {"S" : "BB"}, "Name": {"S": "Barbados"}}
+{"Code": {"S" : "BY"}, "Name": {"S": "Belarus"}}
+{"Code": {"S" : "BE"}, "Name": {"S": "Belgium"}}
+{"Code": {"S" : "BZ"}, "Name": {"S": "Belize"}}
+{"Code": {"S" : "BJ"}, "Name": {"S": "Benin"}}
+{"Code": {"S" : "BM"}, "Name": {"S": "Bermuda"}}
+{"Code": {"S" : "BT"}, "Name": {"S": "Bhutan"}}
+{"Code": {"S" : "BO"}, "Name": {"S": "Bolivia, Plurinational State of"}}
+{"Code": {"S" : "BQ"}, "Name": {"S": "Bonaire, Sint Eustatius and Saba"}}
+{"Code": {"S" : "BA"}, "Name": {"S": "Bosnia and Herzegovina"}}
+{"Code": {"S" : "BW"}, "Name": {"S": "Botswana"}}
+{"Code": {"S" : "BV"}, "Name": {"S": "Bouvet Island"}}
+{"Code": {"S" : "BR"}, "Name": {"S": "Brazil"}}
+{"Code": {"S" : "IO"}, "Name": {"S": "British Indian Ocean Territory"}}
+{"Code": {"S" : "BN"}, "Name": {"S": "Brunei Darussalam"}}
+{"Code": {"S" : "BG"}, "Name": {"S": "Bulgaria"}}
+{"Code": {"S" : "BF"}, "Name": {"S": "Burkina Faso"}}
+{"Code": {"S" : "BI"}, "Name": {"S": "Burundi"}}
+{"Code": {"S" : "KH"}, "Name": {"S": "Cambodia"}}
+{"Code": {"S" : "CM"}, "Name": {"S": "Cameroon"}}
+{"Code": {"S" : "CA"}, "Name": {"S": "Canada"}}
+{"Code": {"S" : "CV"}, "Name": {"S": "Cape Verde"}}
+{"Code": {"S" : "KY"}, "Name": {"S": "Cayman Islands"}}
+{"Code": {"S" : "CF"}, "Name": {"S": "Central African Republic"}}
+{"Code": {"S" : "TD"}, "Name": {"S": "Chad"}}
+{"Code": {"S" : "CL"}, "Name": {"S": "Chile"}}
+{"Code": {"S" : "CN"}, "Name": {"S": "China"}}
+{"Code": {"S" : "CX"}, "Name": {"S": "Christmas Island"}}
+{"Code": {"S" : "CC"}, "Name": {"S": "Cocos (Keeling) Islands"}}
+{"Code": {"S" : "CO"}, "Name": {"S": "Colombia"}}
+{"Code": {"S" : "KM"}, "Name": {"S": "Comoros"}}
+{"Code": {"S" : "CG"}, "Name": {"S": "Congo"}}
+{"Code": {"S" : "CD"}, "Name": {"S": "Congo, the Democratic Republic of the"}}
+{"Code": {"S" : "CK"}, "Name": {"S": "Cook Islands"}}
+{"Code": {"S" : "CR"}, "Name": {"S": "Costa Rica"}}
+{"Code": {"S" : "CI"}, "Name": {"S": "C\u00f4te d'Ivoire"}}
+{"Code": {"S" : "HR"}, "Name": {"S": "Croatia"}}
+{"Code": {"S" : "CU"}, "Name": {"S": "Cuba"}}
+{"Code": {"S" : "CW"}, "Name": {"S": "Cura\u00e7ao"}}
+{"Code": {"S" : "CY"}, "Name": {"S": "Cyprus"}}
+{"Code": {"S" : "CZ"}, "Name": {"S": "Czech Republic"}}
+{"Code": {"S" : "DK"}, "Name": {"S": "Denmark"}}
+{"Code": {"S" : "DJ"}, "Name": {"S": "Djibouti"}}
+{"Code": {"S" : "DM"}, "Name": {"S": "Dominica"}}
+{"Code": {"S" : "DO"}, "Name": {"S": "Dominican Republic"}}
+{"Code": {"S" : "EC"}, "Name": {"S": "Ecuador"}}
+{"Code": {"S" : "EG"}, "Name": {"S": "Egypt"}}
+{"Code": {"S" : "SV"}, "Name": {"S": "El Salvador"}}
+{"Code": {"S" : "GQ"}, "Name": {"S": "Equatorial Guinea"}}
+{"Code": {"S" : "ER"}, "Name": {"S": "Eritrea"}}
+{"Code": {"S" : "EE"}, "Name": {"S": "Estonia"}}
+{"Code": {"S" : "ET"}, "Name": {"S": "Ethiopia"}}
+{"Code": {"S" : "FK"}, "Name": {"S": "Falkland Islands (Malvinas)"}}
+{"Code": {"S" : "FO"}, "Name": {"S": "Faroe Islands"}}
+{"Code": {"S" : "FJ"}, "Name": {"S": "Fiji"}}
+{"Code": {"S" : "FI"}, "Name": {"S": "Finland"}}
+{"Code": {"S" : "FR"}, "Name": {"S": "France"}}
+{"Code": {"S" : "GF"}, "Name": {"S": "French Guiana"}}
+{"Code": {"S" : "PF"}, "Name": {"S": "French Polynesia"}}
+{"Code": {"S" : "TF"}, "Name": {"S": "French Southern Territories"}}
+{"Code": {"S" : "GA"}, "Name": {"S": "Gabon"}}
+{"Code": {"S" : "GM"}, "Name": {"S": "Gambia"}}
+{"Code": {"S" : "GE"}, "Name": {"S": "Georgia"}}
+{"Code": {"S" : "DE"}, "Name": {"S": "Germany"}}
+{"Code": {"S" : "GH"}, "Name": {"S": "Ghana"}}
+{"Code": {"S" : "GI"}, "Name": {"S": "Gibraltar"}}
+{"Code": {"S" : "GR"}, "Name": {"S": "Greece"}}
+{"Code": {"S" : "GL"}, "Name": {"S": "Greenland"}}
+{"Code": {"S" : "GD"}, "Name": {"S": "Grenada"}}
+{"Code": {"S" : "GP"}, "Name": {"S": "Guadeloupe"}}
+{"Code": {"S" : "GU"}, "Name": {"S": "Guam"}}
+{"Code": {"S" : "GT"}, "Name": {"S": "Guatemala"}}
+{"Code": {"S" : "GG"}, "Name": {"S": "Guernsey"}}
+{"Code": {"S" : "GN"}, "Name": {"S": "Guinea"}}
+{"Code": {"S" : "GW"}, "Name": {"S": "Guinea-Bissau"}}
+{"Code": {"S" : "GY"}, "Name": {"S": "Guyana"}}
+{"Code": {"S" : "HT"}, "Name": {"S": "Haiti"}}
+{"Code": {"S" : "HM"}, "Name": {"S": "Heard Island and McDonald Islands"}}
+{"Code": {"S" : "VA"}, "Name": {"S": "Holy See (Vatican City State)"}}
+{"Code": {"S" : "HN"}, "Name": {"S": "Honduras"}}
+{"Code": {"S" : "HK"}, "Name": {"S": "Hong Kong"}}
+{"Code": {"S" : "HU"}, "Name": {"S": "Hungary"}}
+{"Code": {"S" : "IS"}, "Name": {"S": "Iceland"}}
+{"Code": {"S" : "IN"}, "Name": {"S": "India"}}
+{"Code": {"S" : "ID"}, "Name": {"S": "Indonesia"}}
+{"Code": {"S" : "IR"}, "Name": {"S": "Iran, Islamic Republic of"}}
+{"Code": {"S" : "IQ"}, "Name": {"S": "Iraq"}}
+{"Code": {"S" : "IE"}, "Name": {"S": "Ireland"}}
+{"Code": {"S" : "IM"}, "Name": {"S": "Isle of Man"}}
+{"Code": {"S" : "IL"}, "Name": {"S": "Israel"}}
+{"Code": {"S" : "IT"}, "Name": {"S": "Italy"}}
+{"Code": {"S" : "JM"}, "Name": {"S": "Jamaica"}}
+{"Code": {"S" : "JP"}, "Name": {"S": "Japan"}}
+{"Code": {"S" : "JE"}, "Name": {"S": "Jersey"}}
+{"Code": {"S" : "JO"}, "Name": {"S": "Jordan"}}
+{"Code": {"S" : "KZ"}, "Name": {"S": "Kazakhstan"}}
+{"Code": {"S" : "KE"}, "Name": {"S": "Kenya"}}
+{"Code": {"S" : "KI"}, "Name": {"S": "Kiribati"}}
+{"Code": {"S" : "KP"}, "Name": {"S": "Korea, Democratic People's Republic of"}}
+{"Code": {"S" : "KR"}, "Name": {"S": "Korea, Republic of"}}
+{"Code": {"S" : "KW"}, "Name": {"S": "Kuwait"}}
+{"Code": {"S" : "KG"}, "Name": {"S": "Kyrgyzstan"}}
+{"Code": {"S" : "LA"}, "Name": {"S": "Lao People's Democratic Republic"}}
+{"Code": {"S" : "LV"}, "Name": {"S": "Latvia"}}
+{"Code": {"S" : "LB"}, "Name": {"S": "Lebanon"}}
+{"Code": {"S" : "LS"}, "Name": {"S": "Lesotho"}}
+{"Code": {"S" : "LR"}, "Name": {"S": "Liberia"}}
+{"Code": {"S" : "LY"}, "Name": {"S": "Libya"}}
+{"Code": {"S" : "LI"}, "Name": {"S": "Liechtenstein"}}
+{"Code": {"S" : "LT"}, "Name": {"S": "Lithuania"}}
+{"Code": {"S" : "LU"}, "Name": {"S": "Luxembourg"}}
+{"Code": {"S" : "MO"}, "Name": {"S": "Macao"}}
+{"Code": {"S" : "MK"}, "Name": {"S": "Macedonia, the Former Yugoslav Republic of"}}
+{"Code": {"S" : "MG"}, "Name": {"S": "Madagascar"}}
+{"Code": {"S" : "MW"}, "Name": {"S": "Malawi"}}
+{"Code": {"S" : "MY"}, "Name": {"S": "Malaysia"}}
+{"Code": {"S" : "MV"}, "Name": {"S": "Maldives"}}
+{"Code": {"S" : "ML"}, "Name": {"S": "Mali"}}
+{"Code": {"S" : "MT"}, "Name": {"S": "Malta"}}
+{"Code": {"S" : "MH"}, "Name": {"S": "Marshall Islands"}}
+{"Code": {"S" : "MQ"}, "Name": {"S": "Martinique"}}
+{"Code": {"S" : "MR"}, "Name": {"S": "Mauritania"}}
+{"Code": {"S" : "MU"}, "Name": {"S": "Mauritius"}}
+{"Code": {"S" : "YT"}, "Name": {"S": "Mayotte"}}
+{"Code": {"S" : "MX"}, "Name": {"S": "Mexico"}}
+{"Code": {"S" : "FM"}, "Name": {"S": "Micronesia, Federated States of"}}
+{"Code": {"S" : "MD"}, "Name": {"S": "Moldova, Republic of"}}
+{"Code": {"S" : "MC"}, "Name": {"S": "Monaco"}}
+{"Code": {"S" : "MN"}, "Name": {"S": "Mongolia"}}
+{"Code": {"S" : "ME"}, "Name": {"S": "Montenegro"}}
+{"Code": {"S" : "MS"}, "Name": {"S": "Montserrat"}}
+{"Code": {"S" : "MA"}, "Name": {"S": "Morocco"}}
+{"Code": {"S" : "MZ"}, "Name": {"S": "Mozambique"}}
+{"Code": {"S" : "MM"}, "Name": {"S": "Myanmar"}}
+{"Code": {"S" : "NA"}, "Name": {"S": "Namibia"}}
+{"Code": {"S" : "NR"}, "Name": {"S": "Nauru"}}
+{"Code": {"S" : "NP"}, "Name": {"S": "Nepal"}}
+{"Code": {"S" : "NL"}, "Name": {"S": "Netherlands"}}
+{"Code": {"S" : "NC"}, "Name": {"S": "New Caledonia"}}
+{"Code": {"S" : "NZ"}, "Name": {"S": "New Zealand"}}
+{"Code": {"S" : "NI"}, "Name": {"S": "Nicaragua"}}
+{"Code": {"S" : "NE"}, "Name": {"S": "Niger"}}
+{"Code": {"S" : "NG"}, "Name": {"S": "Nigeria"}}
+{"Code": {"S" : "NU"}, "Name": {"S": "Niue"}}
+{"Code": {"S" : "NF"}, "Name": {"S": "Norfolk Island"}}
+{"Code": {"S" : "MP"}, "Name": {"S": "Northern Mariana Islands"}}
+{"Code": {"S" : "NO"}, "Name": {"S": "Norway"}}
+{"Code": {"S" : "OM"}, "Name": {"S": "Oman"}}
+{"Code": {"S" : "PK"}, "Name": {"S": "Pakistan"}}
+{"Code": {"S" : "PW"}, "Name": {"S": "Palau"}}
+{"Code": {"S" : "PS"}, "Name": {"S": "Palestine, State of"}}
+{"Code": {"S" : "PA"}, "Name": {"S": "Panama"}}
+{"Code": {"S" : "PG"}, "Name": {"S": "Papua New Guinea"}}
+{"Code": {"S" : "PY"}, "Name": {"S": "Paraguay"}}
+{"Code": {"S" : "PE"}, "Name": {"S": "Peru"}}
+{"Code": {"S" : "PH"}, "Name": {"S": "Philippines"}}
+{"Code": {"S" : "PN"}, "Name": {"S": "Pitcairn"}}
+{"Code": {"S" : "PL"}, "Name": {"S": "Poland"}}
+{"Code": {"S" : "PT"}, "Name": {"S": "Portugal"}}
+{"Code": {"S" : "PR"}, "Name": {"S": "Puerto Rico"}}
+{"Code": {"S" : "QA"}, "Name": {"S": "Qatar"}}
+{"Code": {"S" : "RE"}, "Name": {"S": "R\u00e9union"}}
+{"Code": {"S" : "RO"}, "Name": {"S": "Romania"}}
+{"Code": {"S" : "RU"}, "Name": {"S": "Russian Federation"}}
+{"Code": {"S" : "RW"}, "Name": {"S": "Rwanda"}}
+{"Code": {"S" : "BL"}, "Name": {"S": "Saint Barth\u00e9lemy"}}
+{"Code": {"S" : "SH"}, "Name": {"S": "Saint Helena, Ascension and Tristan da Cunha"}}
+{"Code": {"S" : "KN"}, "Name": {"S": "Saint Kitts and Nevis"}}
+{"Code": {"S" : "LC"}, "Name": {"S": "Saint Lucia"}}
+{"Code": {"S" : "MF"}, "Name": {"S": "Saint Martin (French part)"}}
+{"Code": {"S" : "PM"}, "Name": {"S": "Saint Pierre and Miquelon"}}
+{"Code": {"S" : "VC"}, "Name": {"S": "Saint Vincent and the Grenadines"}}
+{"Code": {"S" : "WS"}, "Name": {"S": "Samoa"}}
+{"Code": {"S" : "SM"}, "Name": {"S": "San Marino"}}
+{"Code": {"S" : "ST"}, "Name": {"S": "Sao Tome and Principe"}}
+{"Code": {"S" : "SA"}, "Name": {"S": "Saudi Arabia"}}
+{"Code": {"S" : "SN"}, "Name": {"S": "Senegal"}}
+{"Code": {"S" : "RS"}, "Name": {"S": "Serbia"}}
+{"Code": {"S" : "SC"}, "Name": {"S": "Seychelles"}}
+{"Code": {"S" : "SL"}, "Name": {"S": "Sierra Leone"}}
+{"Code": {"S" : "SG"}, "Name": {"S": "Singapore"}}
+{"Code": {"S" : "SX"}, "Name": {"S": "Sint Maarten (Dutch part)"}}
+{"Code": {"S" : "SK"}, "Name": {"S": "Slovakia"}}
+{"Code": {"S" : "SI"}, "Name": {"S": "Slovenia"}}
+{"Code": {"S" : "SB"}, "Name": {"S": "Solomon Islands"}}
+{"Code": {"S" : "SO"}, "Name": {"S": "Somalia"}}
+{"Code": {"S" : "ZA"}, "Name": {"S": "South Africa"}}
+{"Code": {"S" : "GS"}, "Name": {"S": "South Georgia and the South Sandwich Islands"}}
+{"Code": {"S" : "SS"}, "Name": {"S": "South Sudan"}}
+{"Code": {"S" : "ES"}, "Name": {"S": "Spain"}}
+{"Code": {"S" : "LK"}, "Name": {"S": "Sri Lanka"}}
+{"Code": {"S" : "SD"}, "Name": {"S": "Sudan"}}
+{"Code": {"S" : "SR"}, "Name": {"S": "Suriname"}}
+{"Code": {"S" : "SJ"}, "Name": {"S": "Svalbard and Jan Mayen"}}
+{"Code": {"S" : "SZ"}, "Name": {"S": "Swaziland"}}
+{"Code": {"S" : "SE"}, "Name": {"S": "Sweden"}}
+{"Code": {"S" : "CH"}, "Name": {"S": "Switzerland"}}
+{"Code": {"S" : "SY"}, "Name": {"S": "Syrian Arab Republic"}}
+{"Code": {"S" : "TW"}, "Name": {"S": "Taiwan, Province of China"}}
+{"Code": {"S" : "TJ"}, "Name": {"S": "Tajikistan"}}
+{"Code": {"S" : "TZ"}, "Name": {"S": "Tanzania, United Republic of"}}
+{"Code": {"S" : "TH"}, "Name": {"S": "Thailand"}}
+{"Code": {"S" : "TL"}, "Name": {"S": "Timor-Leste"}}
+{"Code": {"S" : "TG"}, "Name": {"S": "Togo"}}
+{"Code": {"S" : "TK"}, "Name": {"S": "Tokelau"}}
+{"Code": {"S" : "TO"}, "Name": {"S": "Tonga"}}
+{"Code": {"S" : "TT"}, "Name": {"S": "Trinidad and Tobago"}}
+{"Code": {"S" : "TN"}, "Name": {"S": "Tunisia"}}
+{"Code": {"S" : "TR"}, "Name": {"S": "Turkey"}}
+{"Code": {"S" : "TM"}, "Name": {"S": "Turkmenistan"}}
+{"Code": {"S" : "TC"}, "Name": {"S": "Turks and Caicos Islands"}}
+{"Code": {"S" : "TV"}, "Name": {"S": "Tuvalu"}}
+{"Code": {"S" : "UG"}, "Name": {"S": "Uganda"}}
+{"Code": {"S" : "UA"}, "Name": {"S": "Ukraine"}}
+{"Code": {"S" : "AE"}, "Name": {"S": "United Arab Emirates"}}
+{"Code": {"S" : "GB"}, "Name": {"S": "United Kingdom"}}
+{"Code": {"S" : "US"}, "Name": {"S": "United States"}}
+{"Code": {"S" : "UM"}, "Name": {"S": "United States Minor Outlying Islands"}}
+{"Code": {"S" : "UY"}, "Name": {"S": "Uruguay"}}
+{"Code": {"S" : "UZ"}, "Name": {"S": "Uzbekistan"}}
+{"Code": {"S" : "VU"}, "Name": {"S": "Vanuatu"}}
+{"Code": {"S" : "VE"}, "Name": {"S": "Venezuela, Bolivarian Republic of"}}
+{"Code": {"S" : "VN"}, "Name": {"S": "Viet Nam"}}
+{"Code": {"S" : "VG"}, "Name": {"S": "Virgin Islands, British"}}
+{"Code": {"S" : "VI"}, "Name": {"S": "Virgin Islands, U.S."}}
+{"Code": {"S" : "WF"}, "Name": {"S": "Wallis and Futuna"}}
+{"Code": {"S" : "EH"}, "Name": {"S": "Western Sahara"}}
+{"Code": {"S" : "YE"}, "Name": {"S": "Yemen"}}
+{"Code": {"S" : "ZM"}, "Name": {"S": "Zambia"}}
+{"Code": {"S" : "ZW"}, "Name": {"S": "Zimbabwe"}}

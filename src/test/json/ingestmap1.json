@@ -1,0 +1,7 @@
+{"key": {"S" : "tournamentId"}, "value": {"S" : "sourceId"}}
+{"key": {"S" : "tournamentName"}, "value": {"S" : "name"}}
+{"key": {"S" : "courseName"}, "value": {"S" : "course"}}
+{"key": {"S" : "startDate"}, "value": {"S" : "start"}, "transform" :  {"S" :  "uk2Date"}}
+{"key": {"S" : "endDate"}, "value": {"S" : "end"}, "transform":  {"S" :  "uk2Date"}}
+{"key": {"S" : "countryCode"}, "value": {"S" : "country"}, "transform":  {"S" :  "countryAlpha2"}}
+{"key": {"S" : "roundCount"}, "value": {"S" : "rounds"}}

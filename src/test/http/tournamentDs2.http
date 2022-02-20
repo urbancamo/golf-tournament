@@ -1,0 +1,17 @@
+### Send POST request with second tournament data sample
+POST http://localhost:5001/tournament/put
+Content-Type: application/json
+Accept: application/json
+source_id: 2
+
+{
+  "tournamentUUID":"southWestInvitational",
+  "golfCourse":"Happy Days Golf Club",
+  "competitionName":"South West Invitational",
+  "hostCountry":"United States Of America",
+  "epochStart":"1638349200",
+  "epochFinish":"1638468000",
+  "rounds":"2",
+  "playerCount":"35"
+}
+

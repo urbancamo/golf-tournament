@@ -1,0 +1,18 @@
+### Send POST request with first tournament data sample
+POST http://localhost:5001/tournament/put
+Content-Type: application/json
+Accept: application/json
+source_id: 1
+
+{
+  "tournamentId": "174638",
+  "tournamentName": "Women's Open Championship",
+  "forecast": "fair",
+  "courseName": "Sunnydale Golf Course",
+  "countryCode": "GB",
+  "startDate": "09/07/21",
+  "endDate": "13/07/21",
+  "roundCount": "4"
+}
+
+
