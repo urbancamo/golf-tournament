@@ -15,7 +15,7 @@ public class TransformerFactory {
         transformerMap = new HashMap<>();
         transformerMap.put("epoch", new EpochTransformer(config.getDateFormat()));
         transformerMap.put("uk2Date", new Uk2DateTransformer(config.getDateFormat()));
-        transformerMap.put("countryAlpha2", new CountryAlpha2Transformer(countryCodeDao));
+        transformerMap.put("countryAlpha2", new Iso2CountryTransformer(countryCodeDao));
     }
 
     public Transformer getTransformer(String dataType) {

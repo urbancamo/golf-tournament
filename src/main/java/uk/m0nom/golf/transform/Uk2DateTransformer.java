@@ -21,7 +21,7 @@ public class Uk2DateTransformer implements Transformer {
             Date date = uk2DateFormat.parse(value);
             return dateFormat.format(date);
         } catch (Exception ignored) {
-
+            // return null is fine
         }
         return null;
     }

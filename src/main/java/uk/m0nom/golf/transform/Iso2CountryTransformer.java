@@ -2,10 +2,10 @@ package uk.m0nom.golf.transform;
 
 import uk.m0nom.golf.dao.CountryCodeDao;
 
-public class CountryAlpha2Transformer implements Transformer {
+public class Iso2CountryTransformer implements Transformer {
     private final CountryCodeDao countryCodeDao;
 
-    public CountryAlpha2Transformer(CountryCodeDao countryCodeDao) {
+    public Iso2CountryTransformer(CountryCodeDao countryCodeDao) {
         this.countryCodeDao = countryCodeDao;
     }
 

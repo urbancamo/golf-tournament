@@ -21,15 +21,18 @@ Requires the [AWS Command Line Interface](https://aws.amazon.com/cli/) for datab
 
 ## Test coverage and tooling; integration and unit 
 
-| Test Class                                |Purpose|
-|-------------------------------------------|-------|
-| `TournamentRestControllerIntegrationTest` |Checks the REST controller with mocked service layers|
-| `TournamentServiceIntegrationTest`        |Checks database persistence operations for Tournament Data|
-| `CountryCodesDaoIntegrationTest`          |Checks the country codes lookup is working|
+| Test Class                                | Purpose                                                    |
+|-------------------------------------------|------------------------------------------------------------|
+| `TournamentRestControllerIntegrationTest` | Checks the REST controller with mocked service layers      |
+| `TournamentServiceIntegrationTest`        | Checks database persistence operations for Tournament Data |
+| `CountryCodesDaoIntegrationTest`          | Checks the country codes lookup is working                 |
+| `Iso2ToCountryTransformerUnitTest`        | Check conversion from Iso2 code to country name            |
+| `EpochTransformerUnitTest`                | Check conversion beween epochs and dates                   |
+| `Uk2DateTransformerUnitTest`              | Check conversion for 2 character year dates                |
 
 Acknowledged that unit testing is thin on the ground and needs addressing!
 
-Current tests have 100% class coverage, 73% Method coverage and 69% line coverage
+Current tests have 100% class coverage, 77% Method coverage and 77% line coverage
 (based on IntelliJ test coverage analyser)
 
 ## Readable and consistent code
