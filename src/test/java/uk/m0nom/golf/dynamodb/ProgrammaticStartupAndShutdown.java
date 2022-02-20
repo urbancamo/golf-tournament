@@ -15,14 +15,13 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 
-@Ignore
-@SpringBootTest
+//@SpringBootTest
 public class ProgrammaticStartupAndShutdown {
 
     private static AmazonDynamoDB dynamoDb;
     private static DynamoDBProxyServer server;
 
-    @BeforeAll
+    //@BeforeAll
     public static void startupDynamoDbEmbedded() {
         // Create an in-memory and in-process instance of DynamoDB Local that skips HTTP
         dynamoDb = DynamoDBEmbedded.create().amazonDynamoDB();
@@ -45,7 +44,7 @@ public class ProgrammaticStartupAndShutdown {
                 .build();
     }
 
-    @AfterAll
+    //@AfterAll
     public static void shutdownDynamoDbEmbedded() {
         if (dynamoDb != null) {
             try {
@@ -58,7 +57,7 @@ public class ProgrammaticStartupAndShutdown {
 
     }
 
-    @Test
+    //@Test
     public void testEmbeddedDynamoDbIntegrationTest() throws Exception {
         listTables(dynamoDb.listTables(), "DynamoDB Local over HTTP");
     }

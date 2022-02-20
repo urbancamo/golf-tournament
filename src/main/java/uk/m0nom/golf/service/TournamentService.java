@@ -1,6 +1,5 @@
 package uk.m0nom.golf.service;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import uk.m0nom.golf.dao.TournamentDao;
 import uk.m0nom.golf.domain.Tournament;
@@ -10,7 +9,7 @@ public class TournamentService {
     private final TransformService transformService;
     private final TournamentDao dao;
 
-    public TournamentService(@Qualifier("dbBasedTransformService") TransformService transformService, TournamentDao dao) {
+    public TournamentService(TransformService transformService, TournamentDao dao) {
         this.transformService = transformService;
         this.dao = dao;
     }
@@ -24,7 +23,7 @@ public class TournamentService {
         return dao.get(id);
     }
 
-    public boolean deleteById(String id) {
+    public int deleteById(String id) {
         return dao.deleteById(id);
     }
 }

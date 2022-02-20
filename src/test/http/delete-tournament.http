@@ -1,0 +1,5 @@
+### Send DELETE request to remove a tournament
+DELETE http://localhost:5001/tournament/a549413d-19d7-4946-aca4-21924226dbd7
+Content-Type: application/json
+Accept: application/json
+

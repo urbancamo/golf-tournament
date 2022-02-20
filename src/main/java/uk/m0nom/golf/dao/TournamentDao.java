@@ -30,10 +30,13 @@ public class TournamentDao extends DynamoDbDao {
 
     public Tournament get(String uuid) {
         Map<String, String> items = getItem("tournament", Tournament.ID_KEYNAME, uuid);
-        return new Tournament(items);
+        if (items != null) {
+            return new Tournament(items);
+        }
+        return null;
     }
 
-    public boolean deleteById(String uuid) {
-        return false;
+    public int deleteById(String uuid) {
+        return deleteItem("tournament", Tournament.ID_KEYNAME, uuid);
     }
 }

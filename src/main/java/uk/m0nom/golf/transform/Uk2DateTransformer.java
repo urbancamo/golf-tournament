@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Uk2DateTransformer implements Transformer {
     private final DateFormat dateFormat;
-    private final DateFormat uk2DateFormat = new SimpleDateFormat("dd/mm/yy");
+    private final DateFormat uk2DateFormat = new SimpleDateFormat("dd/MM/yy");
 
     public Uk2DateTransformer(String dateFormatString) {
         dateFormat = new SimpleDateFormat(dateFormatString);

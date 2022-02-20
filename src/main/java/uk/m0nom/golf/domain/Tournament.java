@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * From each data source, you must persist at least this base set of data:
+ * From each data source, at least this base set of data is persisted:
  * an external ID for the tournament;
  * start and finish dates for the tournament;
  * the golf course name;
@@ -30,6 +30,7 @@ public class Tournament {
     public Tournament(Integer source) {
         setSource(source);
         data = new HashMap<>();
+        data.put(SOURCE_KEYNAME, String.format("%d", getSource()));
     }
 
     public Tournament(Map<String, String> data) {

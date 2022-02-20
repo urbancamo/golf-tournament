@@ -6,8 +6,7 @@ aws dynamodb create-table --endpoint-url $ENDPOINT \
     --table-name tournament \
     --attribute-definitions \
         AttributeName=id,AttributeType=S \
-        AttributeName=name,AttributeType=S \
-    --key-schema AttributeName=id,KeyType=HASH AttributeName=name,KeyType=RANGE \
+    --key-schema AttributeName=id,KeyType=HASH \
     --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1 \
     --table-class STANDARD > /dev/null
 

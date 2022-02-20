@@ -3,4 +3,4 @@
 {"key": {"S" : "golfCourse"}, "value": {"S" : "course"}}
 {"key": {"S" : "hostCountry"}, "value": {"S" : "country"}}
 {"key": {"S" : "epochStart"}, "value": {"S" : "start"}, "transform" :  {"S":  "epoch"}}
-{"key": {"S" : "epochEnd"}, "value": {"S" : "end"}, "transform" :  {"S" :  "epoch"}}
+{"key": {"S" : "epochFinish"}, "value": {"S" : "end"}, "transform" :  {"S" :  "epoch"}}

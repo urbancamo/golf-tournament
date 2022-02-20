@@ -1,6 +1,5 @@
 package uk.m0nom.golf.api;
 
-
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -18,7 +17,7 @@ import java.util.logging.Logger;
 import static org.springframework.http.ResponseEntity.*;
 
 @RestController
-@RequestMapping(path = "/tournament")
+@RequestMapping("/tournament")
 public class TournamentRestController {
 
     private static final Logger logger = Logger.getLogger(TournamentRestController.class.getName());
@@ -29,10 +28,10 @@ public class TournamentRestController {
         this.tournamentService = tournamentService;
     }
 
-    @PostMapping(path = "/put", consumes = "application/json", produces = "application/json")
+    @PostMapping(path = "/", consumes = "application/json")
     @ApiOperation(value = "Upload tournament data", nickname = "Tournament Upload")
     @ApiResponses({
-            @ApiResponse(code = 201, message = "Tournament uploaded, UUID for data returned"),
+            @ApiResponse(code = 201, message = "Tournament uploaded, RESET path to get tournament based on UUID returned"),
             @ApiResponse(code = 400, message = "Tournament data invalid"),
             @ApiResponse(code = 503, message = "Service unavailable, try again later")
     })
@@ -44,7 +43,7 @@ public class TournamentRestController {
             return notFound().build();
         } else {
             URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(createdTournament.getId()).toUri();
-            return created(uri).body(createdTournament);
+            return created(uri).build();
         }
     }
 
@@ -65,18 +64,13 @@ public class TournamentRestController {
     }
 
     @DeleteMapping(path = "/{id}", produces = "application/json")
-    @GetMapping(path = "/{id}", produces = "application/json")
     @ApiOperation(value = "Delete tournament data", nickname = "Tournament Download")
     @ApiResponses({
-            @ApiResponse(code = 201, message = "Tournament data for UUID deleted"),
+            @ApiResponse(code = 200, message = "Tournament data for UUID deleted"),
             @ApiResponse(code = 400, message = "Tournament UUID invalid"),
             @ApiResponse(code = 503, message = "Service unavailable, try again later")
     })
     public ResponseEntity<Tournament> delete(@PathVariable String id) {
-        if (tournamentService.deleteById(id)) {
-            return ok().build();
-        } else {
-            return notFound().build();
-        }
+        return status(tournamentService.deleteById(id)).build();
     }
 }

@@ -70,26 +70,30 @@ public class DynamoDbDao {
                 .build();
 
         try {
-            Map<String,AttributeValue> returnedItem = dbClient.getItem(request).item();
+            GetItemResponse response = dbClient.getItem(request);
+            if (response.hasItem()) {
+                Map<String, AttributeValue> returnedItem = response.item();
 
-            if (returnedItem != null) {
-                Set<String> keys = returnedItem.keySet();
-                for (String rtnKey : keys) {
-                    items.put(rtnKey, returnedItem.get(rtnKey).s());
-                }
-                System.out.println("Amazon DynamoDB table attributes: \n");
+                if (returnedItem != null) {
+                    Set<String> keys = returnedItem.keySet();
+                    for (String rtnKey : keys) {
+                        items.put(rtnKey, returnedItem.get(rtnKey).s());
+                    }
 
-                for (String key1 : keys) {
-                    System.out.format("%s: %s\n", key1, returnedItem.get(key1).toString());
+                    return items;
                 }
-                return items;
-            } else {
-                System.out.format("No item found with the key %s!\n", key);
             }
         } catch (DynamoDbException e) {
             System.err.println(e.getMessage());
             System.exit(1);
         }
         return null;
+    }
+
+    public int deleteItem(String tableName, String key, String keyVal) {
+        Map<String, AttributeValue> keyOfItemToDelete = new HashMap<>();
+        keyOfItemToDelete.put(key, AttributeValue.builder().s(keyVal).build());
+        DeleteItemResponse response = dbClient.deleteItem(DeleteItemRequest.builder().tableName(tableName).key(keyOfItemToDelete).build());
+        return response.sdkHttpResponse().statusCode();
     }
 }

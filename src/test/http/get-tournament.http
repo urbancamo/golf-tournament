@@ -1,0 +1,5 @@
+### Send GET request to retrieve a tournament
+GET http://localhost:5001/tournament/429db6f6-d82d-472a-bc8e-7ee4e2e423ff
+Content-Type: application/json
+Accept: application/json
+

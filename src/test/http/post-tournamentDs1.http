@@ -1,5 +1,5 @@
 ### Send POST request with first tournament data sample
-POST http://localhost:5001/tournament/put
+POST http://localhost:5001/tournament/
 Content-Type: application/json
 Accept: application/json
 source_id: 1

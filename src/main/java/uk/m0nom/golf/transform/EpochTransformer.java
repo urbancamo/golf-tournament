@@ -24,7 +24,7 @@ public class EpochTransformer implements Transformer {
     @Override
     public String transform(String value) {
         try {
-            Long milliseconds = Long.valueOf(value);
+            Long milliseconds = Long.valueOf(value) * 1000L;
             if (milliseconds > 0L) {
                 Date date = new Date(milliseconds);
                 if (date != null) {
