@@ -1,6 +1,9 @@
 package uk.m0nom.golf.api;
 
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -27,6 +30,12 @@ public class TournamentRestController {
     }
 
     @PostMapping(path = "/put", consumes = "application/json", produces = "application/json")
+    @ApiOperation(value = "Upload tournament data", nickname = "Tournament Upload")
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Tournament uploaded, UUID for data returned"),
+            @ApiResponse(code = 400, message = "Tournament data invalid"),
+            @ApiResponse(code = 503, message = "Service unavailable, try again later")
+    })
     public ResponseEntity<Tournament> create(@RequestHeader("source_id") int sourceId, @RequestBody Map<String, String> tournamentData) {
         logger.log(Level.INFO, tournamentData.toString());
         Tournament tournament = new Tournament(sourceId, tournamentData);
@@ -39,7 +48,13 @@ public class TournamentRestController {
         }
     }
 
-    @GetMapping("/{id}")
+    @GetMapping(path = "/{id}", produces = "application/json")
+    @ApiOperation(value = "Retrieve tournament data", nickname = "Tournament Download")
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Tournament data retrieved"),
+            @ApiResponse(code = 400, message = "Tournament UUID invalid"),
+            @ApiResponse(code = 503, message = "Service unavailable, try again later")
+    })
     public ResponseEntity<Tournament> read(@PathVariable("id") String uuid) {
         Tournament foundTournament = tournamentService.read(uuid);
         if (foundTournament == null) {
@@ -49,7 +64,14 @@ public class TournamentRestController {
         }
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(path = "/{id}", produces = "application/json")
+    @GetMapping(path = "/{id}", produces = "application/json")
+    @ApiOperation(value = "Delete tournament data", nickname = "Tournament Download")
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Tournament data for UUID deleted"),
+            @ApiResponse(code = 400, message = "Tournament UUID invalid"),
+            @ApiResponse(code = 503, message = "Service unavailable, try again later")
+    })
     public ResponseEntity<Tournament> delete(@PathVariable String id) {
         if (tournamentService.deleteById(id)) {
             return ok().build();
