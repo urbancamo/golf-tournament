@@ -102,7 +102,7 @@ Parameters for the application and DynamoDB configuration are defined in `applic
 
 ### Building the application
 
-These examples assume the GIT repository [urbancamo/golf-tournament](https://github.com/urbancamo/golf-tournament)) is
+These examples assume the GIT repository [urbancamo/golf-tournament](https://github.com/urbancamo/golf-tournament) is
 checked out into `~/Projects/golf-tournament`.
 
 ## Dependency selection and management
